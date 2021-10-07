@@ -10,9 +10,9 @@ namespace Lab2.tests
         {
             Lab lab = new Lab();
 
-            int num1 = 0;
+            int num1 = 2;
             int num2 = 0;
-            int num3 = 0;
+            int num3 = 5;
             int expected = 0;
 
             int actual = lab.FirstFunction(num1, num2, num3);
@@ -25,10 +25,10 @@ namespace Lab2.tests
         {
             Lab lab = new Lab();
 
-            int num1 = 14;
-            int num2 = 3;
-            int num3 = -7;
-            int expected = -7;
+            int num1 = 7;
+            int num2 = 14;
+            int num3 = 3;
+            int expected = 3;
 
             int actual = lab.FirstFunction(num1, num2, num3);
 
