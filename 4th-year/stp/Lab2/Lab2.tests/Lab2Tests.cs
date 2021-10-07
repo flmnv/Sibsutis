@@ -10,9 +10,9 @@ namespace Lab2.tests
         {
             Lab lab = new Lab();
 
-            int num1 = 2;
-            int num2 = 0;
-            int num3 = 5;
+            int num1 = 0;
+            int num2 = 3;
+            int num3 = 7;
             int expected = 0;
 
             int actual = lab.FirstFunction(num1, num2, num3);
@@ -25,10 +25,10 @@ namespace Lab2.tests
         {
             Lab lab = new Lab();
 
-            int num1 = 7;
-            int num2 = 14;
-            int num3 = 3;
-            int expected = 3;
+            int num1 = 14;
+            int num2 = 9;
+            int num3 = 1;
+            int expected = 1;
 
             int actual = lab.FirstFunction(num1, num2, num3);
 
@@ -41,9 +41,9 @@ namespace Lab2.tests
             Lab lab = new Lab();
 
             double[,] array = {
-                { 10, 7 }
+                { }
             };
-            int expected = 10;
+            int expected = 0;
 
             double actual = lab.SecondFunction(array);
 
