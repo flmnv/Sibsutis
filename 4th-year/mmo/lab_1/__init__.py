@@ -72,7 +72,7 @@ def leave_one_out(train_list: List[DataRow], max_h: int = 5) -> Tuple[int, List[
 
 
 def triangle_kernel(r) -> float:
-    return 1 - r
+    return max(0, 1 - r)
 
 
 def distance(a_row: DataRow, b_row: DataRow) -> float:
